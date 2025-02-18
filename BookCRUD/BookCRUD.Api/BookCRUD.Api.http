@@ -1,0 +1,11 @@
+@BookCRUD.Api_HostAddress = http://localhost:5070
+
+GET {{BookCRUD.Api_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{BookCRUD.Api_HostAddress}}/todos/1
+Accept: application/json
+
+###
